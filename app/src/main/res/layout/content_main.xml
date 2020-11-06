@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+	<androidx.constraintlayout.widget.ConstraintLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="?attr/dialogPreferredPadding"
+		android:layout_marginRight="?attr/dialogPreferredPadding">
+
+		<Button
+			android:id="@+id/button_single_game_start"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="@dimen/fab_margin"
+			android:text="@string/button_single_game_start_string"
+			android:textSize="18sp"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			android:padding="@dimen/fab_margin"/>
+
+		<Button
+			android:id="@+id/button_multi_game_start"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="16dp"
+			android:padding="@dimen/fab_margin"
+			android:text="@string/button_multi_game_start_string"
+			android:textSize="18sp"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/button_single_game_start" />
+
+		<Button
+			android:id="@+id/button_leaderboards_open"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="16dp"
+			android:padding="@dimen/fab_margin"
+			android:text="@string/button_leaderboards_open_string"
+			android:textSize="18sp"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@id/button_multi_game_start" />
+
+		<Button
+			android:id="@+id/button_preferences"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="16dp"
+			android:padding="@dimen/fab_margin"
+			android:text="@string/title_activity_settings"
+			android:textSize="18sp"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/button_leaderboards_open" />
+
+		<Button
+			android:id="@+id/button_exit_app"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="16dp"
+			android:padding="@dimen/fab_margin"
+			android:text="@string/button_exit_app_string"
+			android:textSize="18sp"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/button_preferences" />
+
+	</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

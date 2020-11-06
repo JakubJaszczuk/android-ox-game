@@ -1,0 +1,18 @@
+<resources>
+    <string name="dummy">Debug TEST</string>
+    <string name="app_name">Skreślanko</string>
+    <string name="button_single_game_start_string">Gra z komputerem</string>
+    <string name="button_multi_game_start_string">Gra z drugim graczem</string>
+    <string name="button_exit_app_string">Wyjdź</string>
+    <string name="button_leaderboards_open_string">Wyniki</string>
+    <string name="title_activity_settings">Ustawienia</string>
+
+    <string name="columns">Kolumny</string>
+    <string name="rows">Rzędy</string>
+    <string name="target">Do ułożenia</string>
+    <string name="save">Zapisz</string>
+    <string name="winner_none">Remis</string>
+    <string name="winner_white">Wygrały kółka</string>
+    <string name="winner_black">Wygrały krzyżyki</string>
+    <string name="score_formatter">%d : %d</string>
+</resources>
